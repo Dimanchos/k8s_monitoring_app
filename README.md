@@ -1,3 +1,6 @@
+Приложение для визуализации мониторинга k8s средставами prometheus
+
+
 1. Копируем репозиторий:
    
    git clone https://github.com/Dimanchos/k8s_monitoring_app.git
