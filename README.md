@@ -15,9 +15,11 @@
 
 4. Запускаем наше приложение в контейнере:
    
-   docker run -d   -p 8080:8080   -e PROMETHEUS_URL=http://prometheus-server:9090   --name k8s-monitoring   k8s-monitoring-app:latest //где  PROMETHEUS_URL=http://prometheus-server:9090 = адрес нашего сервера
+   docker run -d   -p 8080:8080   -e PROMETHEUS_URL=http://prometheus-server:9090   --name k8s-monitoring   k8s-monitoring-app:latest
 
+   где  PROMETHEUS_URL=http://prometheus-server:9090 = адрес нашего сервера
+   
 
-5. Заходим в браузер
+5. Заходим в браузер:
 
    http://адрес приложения:8080
